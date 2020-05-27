@@ -1,6 +1,6 @@
 <h1 align="center">Tik Tak Tok</h1>
 <p align="center">
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZiXCYcfxPa4VjgvpLPnuVmu9LjhdZg1rER5pujY5pjIGtiYmY&usqp=CAU"/>
+ <img src="https://i.imgur.com/7tICWWb.png"/>
 </p> 
 
 <p align="center">
