@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -81,10 +80,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showAlertDialog(String player, int imageDialog) {
-        // custom dialog
         final Dialog dialog = new Dialog(context);
         dialog.setContentView(R.layout.cutom_dialog);
-
         TextView text = (TextView) dialog.findViewById(R.id.text);
         if(!player.equals("draw")){
             text.setText(player+" win !");
@@ -93,9 +90,7 @@ public class MainActivity extends AppCompatActivity {
         }
         ImageView image = (ImageView) dialog.findViewById(R.id.image);
         image.setImageResource(imageDialog);
-
         Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
-        // if button is clicked, close the custom dialog
         dialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -104,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0; i < gridLayout.getChildCount(); i++) {
                     ImageView image = (ImageView) gridLayout.getChildAt(i);
                     image.setImageDrawable(null);
-//                  use this loop to reset gameState Array also
                     gameStates[i] = 2;
                 }
                 dialog.dismiss();
