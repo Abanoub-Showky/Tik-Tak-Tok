@@ -1,4 +1,4 @@
-package com.example.tiktaktok;
+package com.company.tiktaktok;
 
 import org.junit.Test;
 

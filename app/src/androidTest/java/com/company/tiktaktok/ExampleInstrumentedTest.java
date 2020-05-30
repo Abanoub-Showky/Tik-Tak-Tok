@@ -1,4 +1,4 @@
-package com.example.tiktaktok;
+package com.company.tiktaktok;
 
 import android.content.Context;
 
