@@ -1,4 +1,4 @@
-<h1 align="center">Tik Tak Tok</h1>
+<h1 align="center">Tik Tak Toe</h1>
 <p align="center">
  <img width="210" height="210" src="https://i.imgur.com/uJkF8Cq.png"/>
 </p> 
